@@ -15,7 +15,7 @@ function RepoDetails(props) {
           'Bearer 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',
       },
     }
-    const fetchUrl = await fetch(url, options)
+    const fetchUrl = await fetch(url)
     const jsonData = await fetchUrl.json()
     // console.log(jsonData)
     setDetails(jsonData)
