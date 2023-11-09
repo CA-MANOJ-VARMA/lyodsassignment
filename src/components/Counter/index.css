@@ -1,0 +1,80 @@
+/* write your css code */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.css-header-properties {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.css-avatar-properties {
+  width: 150px;
+  height: 150px;
+}
+
+.css-all-repo-details-container {
+  /* margin: 10px;
+  padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* border-style: solid;
+  border-color: black;
+  border-radius: 5px; */
+}
+
+.css-single-repo-container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  width: 800px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.css-single-repo-container:hover {
+  scale: 1.05;
+  box-shadow: 1px 1px 1px;
+}
+
+.css-image-container {
+  margin-right: 10px;
+}
+
+.css-count-time-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.css-count-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.css-repo-details-container {
+  gap: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.css-link-properties {
+  text-decoration: none;
+  color: black;
+}
