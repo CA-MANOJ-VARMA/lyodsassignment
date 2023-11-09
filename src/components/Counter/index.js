@@ -32,22 +32,22 @@ function MostStarredApps() {
   console.log(allItems)
   // allItems.map(item => console.log(item))
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const offsetHeight = document.documentElement.offsetHeight
-      const innerHeight = window.innerHeight
-      const scrollTop = document.documentElement.scrollTop
-      const hasReachedBottom = offsetHeight - (innerHeight + scrollTop) <= 10
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const offsetHeight = document.documentElement.offsetHeight
+  //     const innerHeight = window.innerHeight
+  //     const scrollTop = document.documentElement.scrollTop
+  //     const hasReachedBottom = offsetHeight - (innerHeight + scrollTop) <= 10
 
-      setReachedBottom(hasReachedBottom)
-    }
+  //     setReachedBottom(hasReachedBottom)
+  //   }
 
-    window.addEventListener('scroll', handleScroll)
+  //   window.addEventListener('scroll', handleScroll)
 
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  //   return () => window.removeEventListener('scroll', handleScroll)
+  // }, [])
 
-  console.log(reachedBottom)
+  // console.log(reachedBottom)
 
   // function addition
 
